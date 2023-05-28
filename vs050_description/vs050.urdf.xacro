@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<xacro:macro name="vs050" params="platform">
 <robot name="vs050">
 	<gazebo>
 		<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
@@ -252,3 +253,4 @@
 		</actuator>
 	</transmission>
 </robot>
+</xacro:macro>
