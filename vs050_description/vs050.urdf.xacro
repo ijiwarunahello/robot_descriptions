@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="vs050" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find robot_descriptions)/vs050_description/vs050.xacro"/>
+    <xacro:vs050/>
+</robot>
